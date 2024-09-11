@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+     <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Achraf</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MÍ</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRÍCULUM</a></li>
+                    <li><a href="#portafolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+     </div>
+
+     <!-- SECCION INICIO -->
+      <section id="inicio" class="inicio">
+            <div class="contenido-banner">
+                <div class="contenedor-img">
+                    <img src="img/selfie.JPG" alt="">
+                </div>
+                <h1>ACHRAF BOUJAANAN TAJALMANT</h1>
+                <h2>Técnico Superior en Desarrollo de Aplicaciones Multiplataforma</h2>
+                <div class="redes">
+                    <a href="https://www.linkedin.com/in/achrafboujaanan/" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="tel:+34632308399" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-solid fa-phone"></i>
+                    </a>
+                    <a href="mailto:boujaananachraf@gmail.com" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-regular fa-envelope"></i>
+                    </a>
+                    <!--<a href="#" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-square-github"></i></a>-->
+                </div>
+            </div>
+      </section>
+
+      <!-- SECCION SOBRE MI -->
+      <section id="sobremi" class="sobremi">    
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Achraf Boujaanan.</span> Soy un desarrollador de aplicaciones multiplataforma
+                recién graduado, apasionado por la informática y
+                comprometido con el aprendizaje continuo. Poseo una
+                sólida formación técnica y una gran capacidad de
+                adaptación a nuevas tecnologías.
+                Cuento con muchas ganas de poder aplicar mis
+                conocimientos en un entorno profesional y contribuir a
+                proyectos innovadores. Mi enfoque proactivo y mi
+                capacidad para trabajar en equipo me permiten
+                enfrentar desafíos con eficacia y creatividad. </p>
+        
+            <div class="fila">
+                <!-- datos personales -->
+                 <div class="col">
+                    <h3>Datos personales</h3>
+                    <ul>
+                        <!--<li>
+                            <strong>Fecha nacimiento: </strong> <span>05/11/2004</span>
+                        </li>-->
+                        <li>
+                            <strong>Teléfono: </strong> 
+                            <a href="tel:+34632308399">
+                                <span>+34 632308399</span>
+                            </a>
+                        </li>
+                        <li>
+                            <strong>Email: </strong> 
+                            <a href="mailto:boujaananachraf@gmail.com">
+                                <span>boujaananachraf@gmail.com</span>
+                            </a>
+                        </li>
+                        <li>
+                            <strong>Ubicación: </strong>
+                            <a href="https://maps.app.goo.gl/FAnm58bdFdNeXVXN8">
+                                <span>Madrid, España</span>
+                            </a>
+                        </li>
+                    </ul>
+                 </div>
+
+                 <!-- intereses -->
+                 <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-dumbbell"></i>
+                            <span>GYM</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-futbol"></i>
+                            <span>FÚTBOL</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>COCHES</span>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+            <button>
+                <a href="pdf/BoujaananAchraf.CV.pdf" target="_blank">
+                    Descargar CV <i class="fa-solid fa-file-arrow-down"></i>
+                <span class="overlay"></span>
+                </a>
+            </button>
+        </div>
+      </section>
+
+      <!-- SECCION SKILLS -->
+       <section class="skills" id="skills">
+            <div class="contenido-seccion">
+                <h2>Skills</h2>
+                <div class="fila">
+                    <!-- Technical Skills -->
+                     <div class="col">
+                        <h3>Technical Skills</h3>
+                        <div class="skill">
+                            <span>Java</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>95%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Spring</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>75%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Hibernate</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>82%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Maven</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>97%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Angular</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>50%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>TypeScript</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>65%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>HTML & CSS</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>77%%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>BBDD SQL</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>85%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>MongoDB</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>89%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Git & GitHub</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>80%</span>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+
+                     <!-- Soft Skills-->
+                     <div class="col">
+                        <h3>Soft Skills</h3>
+                        <div class="skill">
+                            <span>Trabajo en equipo</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>91%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Comunicación</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>87%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Organización y puntualidad</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>92%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Responsabilidad en el
+                                trabajo</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>99%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Capacidad de autoaprendizaje</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>95%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Creatividad</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>79%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Dedicación</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>97%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Liderazgo</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>96%</span>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                </div>
+            </div>
+       </section>
+
+       <!-- SECCION CURRICULUM -->
+        <section class="curriculum" id="curriculum">
+            <div class="contenido-seccion">
+                <h2>Currículum</h2>
+                <div class="fila">
+                    <div class="col izquierda">
+                        <h3>Educación</h3>
+                        <div class="item izq">
+                            <h4>Desarrollo de aplicaciones multiplataforma</h4>
+                            <span class="lugar">IES Vírgen de la Paloma</span>
+                            <span class="fecha">2022 - 2024</span>
+                            <div class="conectori">
+                                <div class="circuloi"></div>
+                            </div>
+                        </div>
+                        <div class="item izq">
+                            <h4>Bachillerato científico</h4>
+                            <span class="lugar">IES Nuestra Señora de la Almudena</span>
+                            <span class="fecha">2020 - 2022</span>
+                            <div class="conectori">
+                                <div class="circuloi"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col derecha">
+                        <h3>Experiencia laboral</h3>
+                        <div class="item dcha">
+                            <h4>Programador Full-stack</h4>
+                            <span class="lugar">Softtek Digital Solutions SLU</span>
+                            <span class="fecha">Abr 2024 - Jun 2024</span>
+                            <div class="conectord">
+                                <div class="circulod"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCION PORTAFOLIO -->
+         <section class="portafolio" id="portafolio">
+            <div class="contenido-seccion">
+                <h2>Portafolio</h2>
+                <div class="galeria">
+                    <div class="col izq">
+                        <div class="proyecto">
+                            <img src="img/zonix.jpg" alt="">
+                            <div class="overlay">
+                                <h3>Zonix</h3>
+                                <p>Planos Interactivos de Edificios</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="separador"></div>
+                    <div class="col dcha">
+                        <div class="descripcion">
+                            <p> 
+                                Esta aplicación web está diseñada para permitir la creación y gestión de planos interactivos de edificios, ofreciendo una solución integral para la organización y orientación en grandes instalaciones como empresas, universidades y otros espacios extensos.
+                            </p>
+                            <div class="tecnologias">
+                                <strong>Tecnologías empleadas:</strong>
+                                Java, Angular, TypeScript, HTML, CSS, Spring, Hibernate, Maven, PostgreSQL, Git & GitHub.
+                            </div>
+                        </div>
+                    </div>
+                    <button id="openModalButton">
+                        Ver demo <i class="fa-solid fa-play"></i>
+                        <span class="overlay"></span>
+                    </button>
+
+                    <!-- Modal -->
+                    <div id="videoModal" class="modal">
+                        <div class="modal-content">
+                            <span class="close-button">&times;</span>
+                            <video id="videoPlayer" class="video" width="600" controls>
+                                <source src="videos/video/Zonix.mp4" type="video/mp4">
+                                Tu navegador no soporta esta visualización.
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+         <!-- SECCIÓN CONTACTO -->
+        <section class="contacto" id="contacto">
+            <div class="contenido-seccion">
+                <h2>Contacto</h2>
+                <div class="fila">
+                    <!-- Formulario -->
+                    <div class="col">
+                        <input type="text" id="name" placeholder="Nombre">
+                        <input type="text" id="phone" placeholder="Teléfono">
+                        <input type="email" id="email" placeholder="Correo electrónico">
+                        <input type="text" id="subject" placeholder="Asunto">
+                        <textarea id="message" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                        <button id="sendMessageButton">
+                            Enviar mensaje <i class="fa-solid fa-paper-plane"></i>
+                                <span class="overlay"></span>
+                        </button>
+                    </div>
+                    <!-- Mapa -->
+                    <div class="col">
+                        <a href="https://maps.app.goo.gl/FAnm58bdFdNeXVXN8" target="_blank">
+                            <img src="img/fondoMapa.png" alt="Foto de perfil">
+                        </a>
+                        <div class="info">
+                            <ul>
+                                <li>
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <a href="https://maps.app.goo.gl/FAnm58bdFdNeXVXN8">
+                                        28020 Madrid, España
+                                    </a>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-mobile"></i>
+                                    Llámame:
+                                    <a href="tel:+34632308399">
+                                        +34 632308399
+                                    </a>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-envelope"></i>
+                                    Email: 
+                                    <a href="mailto:boujaananachraf@gmail.com">
+                                        boujaananachraf@gmail.com
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+          <!-- FOOTER -->
+           <footer>
+                <a href="#inicio" class="arriba">
+                    <i class="fa-solid fa-angles-up"></i>
+                </a>
+                <div class="redes">
+                    <a href="https://www.linkedin.com/in/achrafboujaanan/" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="tel:+34632308399" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-solid fa-phone"></i>
+                    </a>
+                    <a href="mailto:boujaananachraf@gmail.com" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-regular fa-envelope"></i>
+                    </a>
+                    <!--<a href="#" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-square-github"></i></a>-->
+                </div>
+           </footer>
+
+           <script src="script.js"></script>
+</body>
+</html>
