@@ -647,7 +647,7 @@ html{
 }
 
 .portafolio h2 {
-    font-size: 2.5rem; /* Responsive font size */
+    font-size: 2.5rem;
     font-family: 'Righteous';
     text-align: center;
     padding: 20px 0;
@@ -741,7 +741,7 @@ html{
     margin: auto;
     margin-top: 50px;
     padding: 10px 22px;
-    font-size: 1rem; /* Responsive font size */
+    font-size: 1rem;
     color: #fff;
     position: relative;
     z-index: 1;
@@ -987,26 +987,53 @@ footer .arriba{
         padding: 10px 0;
     }
 
+    .inicio {
+        height: auto;
+        padding: 50px 20px;
+    }
+
+    .inicio .contenido-banner {
+        padding: 15px; 
+        margin-top: 50px;
+    }
+
+    .inicio .contenido-banner img {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .inicio .contenido-banner h1 {
+        font-size: 24px;
+    }
+
+    .inicio .contenido-banner h2 {
+        font-size: 18px;
+    }
+
+    .inicio .contenido-banner .redes a {
+        font-size: 18px;
+    }
+
     .portafolio .galeria {
-        justify-content: center; /* Center align gallery items */
+        justify-content: center;
     }
 
     .portafolio .galeria .proyecto {
-        max-width: 90%; /* Reduce max-width to fit in smaller screens */
+        max-width: 90%;
     }
 
     .portafolio .col {
-        width: 100%; /* Full width for columns */
-        padding: 10px 0; /* Adjust padding */
+        width: 100%;
+        padding: 10px 0;
     }
 
     .portafolio .izq,
     .portafolio .dcha {
-        padding-left: 0; /* Remove padding for smaller screens */
+        padding-left: 0;
     }
 
     .portafolio h2 {
-        font-size: 2rem; /* Smaller font size for smaller screens */
+        font-size: 2rem;
     }
 }
 
@@ -1037,22 +1064,22 @@ footer .arriba{
     }
 
     .portafolio .galeria {
-        flex-direction: column; /* Stack items vertically */
-        align-items: center; /* Center align items */
+        flex-direction: column;
+        align-items: center;
     }
 
     .portafolio .galeria .proyecto {
-        max-width: 100%; /* Full width for projects */
-        margin: 10px 0; /* Adjust margin */
+        max-width: 100%;
+        margin: 10px 0;
     }
 
     .portafolio .col {
-        width: 100%; /* Full width for columns */
-        padding: 10px; /* Adjust padding */
+        width: 100%;
+        padding: 10px;
     }
 
     .portafolio button {
-        padding: 8px 16px; /* Adjust padding */
-        font-size: 0.875rem; /* Smaller font size */
+        padding: 8px 16px;
+        font-size: 0.875rem;
     }
 }
