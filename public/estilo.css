@@ -771,6 +771,11 @@ html{
     padding: 5px 4px;
 }
 
+.portafolio button a{
+    color: #fff;
+    text-decoration: none;
+}
+
 .modal {
     display: none;
     position: fixed;
