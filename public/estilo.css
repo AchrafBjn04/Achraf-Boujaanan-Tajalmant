@@ -719,8 +719,14 @@ html{
     padding-left: 65px;
 }
 
+.portafolio .izq .nombre {
+    font-size: 17px;
+    padding-left: 16px;
+    opacity: 0;
+}
+
 .portafolio .dcha {
-    padding: 25px 50px;
+    padding: 43px 50px;
 }
 
 .portafolio .separador {
@@ -1081,6 +1087,10 @@ footer .arriba{
     .portafolio .col {
         width: 100%;
         padding: 10px;
+    }
+
+    .portafolio .izq .nombre {
+        opacity: 1;
     }
 
     .portafolio button {
