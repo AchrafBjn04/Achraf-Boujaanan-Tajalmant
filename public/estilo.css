@@ -1053,6 +1053,7 @@ footer .arriba{
 
     .sobremi .fila .col ul li a .email{
         font-size: 6px;
+        width: 100%;
      }
 
     .skills .fila .col .barra-skill {
